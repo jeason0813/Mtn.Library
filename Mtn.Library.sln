@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mtn.Library", "Mtn.Library\Mtn.Library.csproj", "{6BD8F0D3-A353-4486-83AF-5E351660FA55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mtn.Library.JsonNetProvider", "Mtn.Library.JsonNetProvider\Mtn.Library.JsonNetProvider.csproj", "{787CB464-CF8F-4F45-995F-75C837A96B9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BD8F0D3-A353-4486-83AF-5E351660FA55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD8F0D3-A353-4486-83AF-5E351660FA55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD8F0D3-A353-4486-83AF-5E351660FA55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD8F0D3-A353-4486-83AF-5E351660FA55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{787CB464-CF8F-4F45-995F-75C837A96B9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787CB464-CF8F-4F45-995F-75C837A96B9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787CB464-CF8F-4F45-995F-75C837A96B9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787CB464-CF8F-4F45-995F-75C837A96B9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F70A721-1339-4DB6-B615-D37728399A69}
+	EndGlobalSection
+EndGlobal

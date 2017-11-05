@@ -1,0 +1,34 @@
+﻿2016-11-07 4.0.0.78
+- Fix bug when use ExpandableMtn with GetPageMtn
+- Statistics throw error with original value if occurs any error to save 
+- Schedulle fix error with many threads 
+
+2016-06-27 4.0.0.77
+- Fix bug where ajax come null from IIS
+2015-11-17 4.0.0.75
+- Fix bug in HttpUtils Get, when Url.Query is zero lenght
+- Create a DumpCsvStringMtn to return a StringBuilder in csv from a IQueriable in entity extensions
+
+2015-11-03 4.0.0.74
+- Fix bug in isPrimitiveMtn extension, where object is null, in this case will return false
+- Fix bug in LeftMtn and RightMtn when lenght of string is less than size 
+
+2015-09-11 4.0.0.73
+- Fix bug in Schedule on ThreadAbortException error
+- Fix bug on Date Extensions, is inverted
+
+2015-09-08 4.0.0.72
+- Fix bug in GetNumberOfMonthsMtn.
+
+2015-08-27 4.0.0.72
+- Change in extension CastMtn bug fix. Dont cast when property on source object is not writable.
+
+2015-08-24 4.0.0.71
+- Mtn.Library.Image.Utils for simple image manipulation in batch
+- Mtn.Library.Utils.HttpUtils to send data via get or post
+- Mtn.Library.Utils.Email, added attachments option and bug fixes
+- Fix bug on Configuration when use Medium trust 
+- Fix error on Proxy when use virtual methods with Medium trust
+
+- Issues
+ - In Medium trust the cache attributte are ignored, because need use override and with Medium Trust it's not possible the way it is made, so it is being ignored, use the cache service instead if you need a cache 
